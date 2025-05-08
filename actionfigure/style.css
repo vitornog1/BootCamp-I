@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+header{
+    background-color: orangered;
+    color: white;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header .container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.goku {
+    max-width: 90px;
+}
+
+.banner{
+    background: url('https://www.toyark.com/wp-content/uploads/2017/11/SHF-SSG-Goku-32.jpg') ;
+    height:600px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+.banner-content {
+    max-width: 600px;
+    margin-left: 50px;
+    color: #0c82b9;
+}
+
+.banner .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: #0c82b9;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.banner .btn:hover {
+    background-color: orangered;
+}
+
+.Produtos {
+    padding: 60px 20px;
+    background-color: white;
+}
+
+.Produtos h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 12pt;
+    color: orangered;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: orangered;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 1 1 250px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display:grid;
+    justify-content: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgb(207, 59, 59);
+}
+
+.card img {
+    max-width: 200px;
+}
+
+.card button {
+    background-color: black;
+    color: white ;
+    height: 30px;
+}
+
+footer{
+    background-color: orangered;
+    padding: 30px;
+    text-align: center;
+}
+
+.container form {
+     display: grid;
+     padding: 30px;
+     margin: 10px;
+     width: 500px;
+}
+
+.container form input {
+    padding: 10px;
+    margin: 10px;
+}
+
+.forms button {
+    background-color: orangered;
+}
